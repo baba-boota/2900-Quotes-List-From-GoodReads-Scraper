@@ -1,4 +1,4 @@
-# Quotes List of the most popular quotes of all time from goodreads
+# A list of most popular quotes of all time
 
 All quotes are inside quotes.json. I skipped quotes that are longer than 2000 characters for my usecase.
 

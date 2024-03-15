@@ -56,7 +56,7 @@ async def main():
         parser(urls_data[f"https://www.goodreads.com/quotes?page={x}"])
 
     with open("quotes.json", "w", encoding="utf-8") as file:
-        json.dump(f, file, indent=4)
+        json.dump(f, file, indent=4, ensure_ascii=False)
     
     print("All quotes have been written to 'quotes.json'")
 
